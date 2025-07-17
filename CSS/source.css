@@ -1,0 +1,163 @@
+/* default theme */
+/* :root{
+    --primary: #00FFFF;
+    --secondary: #070606;
+    --ternary: #898989;
+    --light: #f2f2f2;
+    --dark: #161616;
+    --darkBlue: #01051f;
+    --darkText: #848db3;
+    --pure: #fff;
+    --deep: #db3838;
+    --code: #8f21a2;
+} */
+
+/* custom theme */
+/* :root{
+    --primary: #5ebebe;
+    --secondary: #282028; 
+    --ternary: #000000;
+    --light: #f5f5f5; 
+    --dark: #1b1b2f; 
+    --darkBlue: #1b343d; 
+    --darkText: #fdfeff; 
+    --pure: #e6e6e6; 
+    --deep: #ff007f; 
+    --code: #39ff14; 
+}   */
+
+/* retro arcade theme */
+/* :root {
+    --primary: #ff3d00;
+    --secondary: #000000;
+    --ternary: #081d41;
+    --light: #e0e0e0;
+    --dark: #eab3b3;
+    --accent: #ff4081;
+    --border: #00bcd4;
+    --textColor: #ffffff;
+} */
+
+
+/* Nature-inspired Theme */
+/* :root {
+    --primary: #4caf50;
+    --secondary: #000000;
+    --ternary: #526030;
+    --light: #f5f5f5;
+    --dark: #263238;
+    --accent: #ffb300;
+    --textColor: #212121;
+} */
+
+
+/* Dark Minimalist Theme */
+/* :root {
+    --primary: #b852ef;
+    --secondary: #333333;
+    --ternary: #555555;
+    --light: #f0f0f0;
+    --dark: #3a3449;
+    --accent: #1e88e5;
+    --textColor: #e0e0e0;
+} */
+
+
+/* Ocean Breeze Theme */
+/* :root {
+    --primary: #5581a7;
+    --secondary: #000000;
+    --ternary: #4caf50;
+    --light: #ffffff;
+    --dark: #004d40;
+    --accent: #ff5722;
+    --textColor: #000000;
+} */
+
+/* Neon City Theme */
+/* :root {
+    --primary: #983c3c;
+    --secondary: #0f0f0f;
+    --ternary: #000000;
+    --light: #4b6065;
+    --dark: #aa6f6f;
+    --accent: #ffcc00;
+    --textColor: #956868;
+} */
+
+/* traditional theme */
+/* :root {
+    --primary: #974f4f;
+    --secondary: #333;
+    --ternary: #666;
+    --light: #f2f2f2; 
+    --dark: #111; 
+    --darkBlue: #33747c;
+    --darkText: #28a6b7;
+    --pure: #fff;
+    --deep: #999;
+    --code: #888;
+} */
+:root {
+    --primary: #980e27;         /* Black */
+    --secondary: #233;      /* Dark Gray */
+    --ternary: #666;        /* Medium Gray */
+    --light: #f2f2f2;       /* Light Gray */
+    --dark:  #000000;           /* Very Dark Gray */
+    --darkBlue: #33747c;    /* Dark Blue (optional) */
+    --darkText: #28a6b7;       /* Darker Text */
+    --pure: #fff;           /* Pure White */
+    --deep: #999;           /* Lighter Gray for Highlights */
+    --code: #888;           /* Soft Gray for Code */
+}
+
+
+.flex{
+    display: flex;
+}
+
+.flex-1{
+    flex: 1;
+}
+
+.items-center{
+    align-items: center;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.justify-around{
+    justify-content: space-evenly;
+}
+
+.justify-center{
+    justify-content: center;
+}
+.flex-direction{
+    flex-direction: column;
+}
+.primary-btn{
+    background: var(--primary);
+    color: var(--secondary);
+    border-color: var(--primary);
+}
+
+.primary-btn:hover{
+    background: transparent;
+    border-color: var(--primary);
+    color: var(--primary);
+}
+
+.secondary-btn{
+    background: transparent;
+    color: var(--primary);
+    border-color: var(--primary);
+}
+
+.secondary-btn:hover{
+    background: var(--primary);
+    color: var(--secondary);
+}
+
